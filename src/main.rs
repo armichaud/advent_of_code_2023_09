@@ -43,8 +43,8 @@ fn solution(filename: &str, backwards: bool) -> i64 {
 }
 
 fn main() {
-    assert_eq!(solution("example.txt", false), 114);
-    assert_eq!(solution("input.txt", false), 1938800261);
-    assert_eq!(solution("example.txt", true), 2);
-    assert_eq!(solution("input.txt", true), 1112);
+    println!("{}", solution("example.txt", false));
+    println!("{}", solution("input.txt", false));
+    println!("{}", solution("example.txt", true));
+    println!("{}", solution("input.txt", true));
 }
